@@ -86,3 +86,7 @@ Update the connection URL to match your MongoDB server address if it is hosted e
 
  ```python
    client = MongoClient('mongodb://<your-mongodb-server-address>:<port>/')
+
+Replace <your-mongodb-server-address> with the IP address or hostname of your MongoDB server, and <port> with the corresponding port number.
+
+Feel free to modify the configurations as per your environment setup.
