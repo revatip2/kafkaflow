@@ -82,11 +82,12 @@ Update the bootstrap_servers parameter to match your Kafka server address if it 
    ```python
    client = MongoClient('mongodb://localhost:27017/')
    
-Update the connection URL to match your MongoDB server address if it is hosted elsewhere. For example, if your MongoDB server is running on a different IP address or port, update the connection URL accordingly. Here's an example of how to modify the connection URL:
-
- ```python
-   client = MongoClient('mongodb://<your-mongodb-server-address>:<port>/')
+Update the connection URL to match your MongoDB server address if it is hosted elsewhere. For example, if your MongoDB server is running on a different IP address or port, update the connection URL accordingly. Here's an example of how to modify the connection URL.
 
 Replace <your-mongodb-server-address> with the IP address or hostname of your MongoDB server, and <port> with the corresponding port number.
 
 Feel free to modify the configurations as per your environment setup.
+
+ ```python
+   client = MongoClient('mongodb://<your-mongodb-server-address>:<port>/')
+
