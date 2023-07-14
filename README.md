@@ -9,7 +9,6 @@ This program reads a text file and performs word count using Python, Kafka, and 
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -32,11 +31,12 @@ Before running the program, ensure that you have the following prerequisites ins
 
 
 2. Start Kafka and ZooKeeper by running the following commands in separate terminal windows:
+   
 `bin/zookeeper-server-start.sh config/zookeeper.properties`
 `bin/kafka-server-start.sh config/server.properties`
 
 
-3. Create a Kafka topic named `input-topic` by running the following command:
+4. Create a Kafka topic named `input-topic` by running the following command:
 
 `bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic input-topic`
 
