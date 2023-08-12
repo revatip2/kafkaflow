@@ -1,4 +1,4 @@
-# word-count-data-streaming
+# KafkaFlow: Data Streaming using Kafka and MongoDB
 
 This program reads a text file and performs word count using Python, Kafka, and MongoDB. It reads the given `sample.txt` file, counts the occurrence of each word, and stores the word counts in a MongoDB database. The program utilizes Kafka for streaming data and connects to MongoDB for data storage.
 
